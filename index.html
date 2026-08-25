@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Emergency Electricals | Electrical Services in Bangalore</title>
+
+  <meta
+    name="description"
+    content="Emergency Electricals provides electrical services in Electronic City, Bangalore. Contact us for electrical work and service requirements."
+  />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f8fafc;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* ================= HEADER ================= */
+
+    header {
+      background: #ffffff;
+      padding: 12px 5%;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-logo {
+      width: 58px;
+      height: 58px;
+      border-radius: 12px;
+      background: #ffd21f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 34px;
+      box-shadow: 0 3px 10px rgba(0,0,0,.15);
+    }
+
+    .brand h1 {
+      font-size: 24px;
+      color: #202020;
+      line-height: 1.1;
+    }
+
+    .brand span {
+      color: #1769e0;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    nav a,
+    .services-menu {
+      text-decoration: none;
+      color: #1769e0;
+      padding: 10px 13px;
+      border-radius: 7px;
+      font-size: 16px;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+    }
+
+    nav a:hover,
+    .services-menu:hover {
+      background: #eef5ff;
+    }
+
+    .services-dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 48px;
+      background: white;
+      min-width: 230px;
+      box-shadow: 0 8px 25px rgba(0,0,0,.15);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .dropdown-content a {
+      display: block;
+      color: #222;
+      padding: 12px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+      background: #f0f6ff;
+      color: #1769e0;
+    }
+
+    .services-dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* ================= HERO ================= */
+
+    .hero {
+      min-height: 570px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 50px 20px;
+      background:
+        linear-gradient(
+          rgba(0, 20, 35, .68),
+          rgba(0, 20, 35, .72)
+        ),
+        url("https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=1800&q=85")
+        center/cover;
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    .hero h2 {
+      font-size: 52px;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      text-shadow: 0 3px 10px rgba(0,0,0,.4);
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 14px 24px;
+      border-radius: 7px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .btn-call {
+      background: white;
+      color: #1769e0;
+    }
+
+    .btn-whatsapp {
+      background: #25d366;
+      color: white;
+    }
+
+    .btn-primary {
+      background: #1769e0;
+      color: white;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: .92;
+    }
+
+    /* ================= GENERAL ================= */
+
+    section {
+      padding: 70px 5%;
+    }
+
+    .container {
+      max-width: 1150px;
+      margin: auto;
+    }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 42px;
+    }
+
+    .section-heading h2 {
+      color: #1769e0;
+      font-size: 36px;
+      margin-bottom: 8px;
+    }
+
+    .section-heading p {
+      color: #666;
+      font-size: 17px;
+    }
+
+    /* ================= ABOUT ================= */
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 35px;
+      align-items: center;
+    }
+
+    .about-image {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+
+    .about-text h3 {
+      font-size: 30px;
+      margin-bottom: 15px;
+      color: #222;
+    }
+
+    .about-text p {
+      color: #555;
+      font-size: 17px;
+      margin-bottom: 15px;
+    }
+
+    /* ================= SERVICES ================= */
+
+    .services-section {
+      background: #f1f5f9;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .service-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,.10);
+      cursor: pointer;
+      transition: .25s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 28px rgba(0,0,0,.15);
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 205px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .service-info {
+      padding: 18px 20px 22px;
+    }
+
+    .service-info h3 {
+      color: #1769e0;
+      font-size: 21px;
+      line-height: 1.25;
+    }
+
+    .arrow {
+      display: inline-flex;
+      width: 25px;
+      height: 25px;
+      align-items: center;
+      justify-content: center;
+      background: #1769e0;
+      color: white;
+      border-radius: 50%;
+      font-size: 15px;
+      margin-left: 4px;
+    }
+
+    /* ================= SERVICE DETAILS ================= */
+
+    #serviceDetails {
+      display: none;
+      background: white;
+      min-height: 650px;
+    }
+
+    .service-detail {
+      max-width: 950px;
+      margin: auto;
+    }
+
+    .back-button {
+      border: none;
+      background: #1769e0;
+      color: white;
+      padding: 11px 18px;
+      border-radius: 7px;
+      cursor: pointer;
+      font-size: 15px;
+      margin-bottom: 25px;
+    }
+
+    .detail-card {
+      background: #f8fafc;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 25px rgba(0,0,0,.10);
+    }
+
+    .detail-card img {
+      width: 100%;
+      height: 430px;
+      object-fit: cover;
+    }
+
+    .detail-content {
+      padding: 32px;
+    }
+
+    .detail-content h2 {
+      color: #1769e0;
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+
+    .detail-content p {
+      font-size: 17px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    /* ================= TESTIMONIALS ================= */
+
+    .testimonials {
+      background: white;
+    }
+
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .testimonial {
+      background: #f8fafc;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #e5e7eb;
+    }
+
+    .stars {
+      color: #f5b700;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .testimonial p {
+      color: #555;
+      margin-bottom: 12px;
+    }
+
+    .testimonial strong {
+      color: #222;
+    }
+
+    /* ================= CONTACT ================= */
+
+    .contact-section {
+      background: #eef5ff;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .contact-card {
+      background: white;
+      padding: 28px 20px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,.07);
+    }
+
+    .contact-icon {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    .contact-card h3 {
+      color: #1769e0;
+      margin-bottom: 8px;
+    }
+
+    .contact-card a {
+      color: #333;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    /* ================= LOCATION ================= */
+
+    .location-section {
+      background: #111827;
+      color: white;
+      text-align: center;
+    }
+
+    .location-section h2 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .location-section p {
+      color: #d1d5db;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    /* ================= FOOTER ================= */
+
+    footer {
+      background: #030712;
+      color: #9ca3af;
+      text-align: center;
+      padding: 22px;
+    }
+
+    /* ================= FLOATING WHATSAPP ================= */
+
+    .floating-whatsapp {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      width: 58px;
+      height: 58px;
+      background: #25d366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 29px;
+      text-decoration: none;
+      box-shadow: 0 5px 18px rgba(0,0,0,.3);
+      z-index: 2000;
+    }
+
+    /* ================= MOBILE ================= */
+
+    @media (max-width: 850px) {
+
+      .header-inner {
+        flex-direction: column;
+      }
+
+      nav {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      nav a,
+      .services-menu {
+        font-size: 15px;
+        padding: 8px;
+      }
+
+      .hero {
+        min-height: 520px;
+      }
+
+      .hero h2 {
+        font-size: 38px;
+      }
+
+      .hero p {
+        font-size: 17px;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+      }
+
+      .testimonial-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 550px) {
+
+      .brand h1 {
+        font-size: 20px;
+      }
+
+      .brand-logo {
+        width: 50px;
+        height: 50px;
+        font-size: 29px;
+      }
+
+      .hero h2 {
+        font-size: 34px;
+      }
+
+      .service-card img {
+        height: 160px;
+      }
+
+      .service-info {
+        padding: 15px;
+      }
+
+      .service-info h3 {
+        font-size: 18px;
+      }
+
+      .detail-card img {
+        height: 260px;
+      }
+
+      .detail-content {
+        padding: 23px;
+      }
+
+      .detail-content h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+  <div class="header-inner">
+
+    <div class="brand">
+
+      <div class="brand-logo">
+        ⚡
+      </div>
+
+      <h1>
+        Emergency <span>Electricals</span>
+      </h1>
+
+    </div>
+
+    <nav>
+
+      <a href="#home">Home</a>
+
+      <a href="#about">About Us</a>
+
+      <div class="services-dropdown">
+
+        <button class="services-menu">
+          Services ▾
+        </button>
+
+        <div class="dropdown-content">
+
+          <a href="#services">
+            Electrical Works
+          </a>
+
+          <a href="#services">
+            Electrical Repairs
+          </a>
+
+          <a href="#services">
+            Light Installation
+          </a>
+
+          <a href="#services">
+            Fan Installation
+          </a>
+
+          <a href="#services">
+            Home Electrical Work
+          </a>
+
+          <a href="#services">
+            Wiring Services
+          </a>
+
+        </div>
+
+      </div>
+
+      <a href="#testimonials">
+        Testimonials
+      </a>
+
+      <a href="#contact">
+        Contact Us
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+  <div class="hero-content">
+
+    <h2>
+      Reliable Electrical
+      Services You Can Trust
+    </h2>
+
+    <p>
+      Professional electrical work and service
+      requirements in Electronic City, Bangalore.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a
+        href="tel:+916302688718"
+        class="btn btn-call"
+      >
+        📞 Call Us: +91 6302688718
+      </a>
+
+      <a
+        href="https://wa.me/916302688718"
+        target="_blank"
+        class="btn btn-whatsapp"
+      >
+        💬 WhatsApp
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <h2>About Us</h2>
+
+      <p>
+        Emergency Electricals
+      </p>
+
+    </div>
+
+    <div class="about-grid">
+
+      <img
+        class="about-image"
+        src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1000&q=85"
+        alt="Electrical work"
+      />
+
+      <div class="about-text">
+
+        <h3>
+          Electrical Services
+        </h3>
+
+        <p>
+          <strong>Emergency Electricals</strong>
+          provides electrical services in
+          Electronic City, Bangalore.
+        </p>
+
+        <p>
+          We handle electrical works and related
+          service requirements. Contact us by phone
+          or WhatsApp for your electrical service needs.
+        </p>
+
+        <a
+          href="#contact"
+          class="btn btn-primary"
+        >
+          Contact Us
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services" class="services-section">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <h2>Our Services</h2>
+
+      <p>
+        Click on any service to view photo and details
+      </p>
+
+    </div>
+
+
+    <div class="service-grid">
+
+
+      <!-- 1 -->
+
+      <div
+        class="service-card"
+        onclick="showService(
+          'Electrical Installation',
+          'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1200&q=85',
+          'Electrical installation work and related electrical service requirements for residential and other properties.'
+        )"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=85"
+          alt="Electrical Installation"
+        />
+
+        <div class="service-info">
+
+          <h3>
+            Electrical Installation
+            <span class="arrow">→</span>
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- 2 -->
+
+      <div
+        class="service-card"
+        onclick="showService(
+          'Interior Electrical Works',
+          'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85',
+          'Electrical work related to interior spaces, lighting points and other electrical requirements.'
+        )"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85"
+          alt="Interior Electrical Works"
+        />
+
+        <div class="service-info">
+
+          <h3>
+            Interior Electrical Works
+            <span class="arrow">→</span>
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- 3 -->
+
+      <div
+        class="service-card"
+        onclick="showService(
+          'LED Light Installation',
+          'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=85',
+          'LED light installation and electrical lighting work for homes and other spaces.'
+        )"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85"
+          alt="LED Light Installation"
+        />
+
+        <div class="service-info">
+
+          <h3>
+            LED Light Installation
+            <span class="arrow">→</span>
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- 4 -->
+
+      <div
+        class="service-card"
+        onclick="showService(
+          'Fan Installation',
+          'https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=1200&q=85',
+          'Fan installation and related electrical connection work.'
+        )"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=900&q=85"
+          alt="Fan Installation"
+        />
+
+        <div class="service-info">
+
+          <h3>
+            Fan Installation
+            <span class="arrow">→</span>
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- 5 -->
+
+      <div
+        class="service-card"
+        onclick="showService(
+          'Geyser Electrical Work',
+          'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=85',
+          'Electrical connection and related electrical work for geyser installations.'
+        )"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=900&q=85"
+          alt="Geyser Electrical Work"
+        />
+
+        <div class="service-info">
+
+          <h3>
+            Geyser Electrical Work
+            <span class="arrow">→</span>
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- 6 -->
+
+      <div
+        class="service-card"
+        onclick="showService(
+          'Electrical Repairs',
+          'https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=1200&q=85',
+          'Electrical repair and troubleshooting work for electrical service requirements.'
+        )"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=900&q=85"
+          alt="Electrical Repairs"
+        />
+
+        <div class="service-info">
+
+          <h3>
+            Electrical Repairs
+            <span class="arrow">→</span>
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- 7 -->
+
+      <div
+        class="service-card"
+        onclick="showService(
+          'Home Electrical Work',
+          'https://images.unsplash.com/photo-1565600220322-24f2e4f2f3c8?auto=format&fit=crop&w=1200&q=85',
+          'Electrical work and service requirements for residential properties.'
+        )"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1565600220322-24f2e4f2f3c8?auto=format&fit=crop&w=900&q=85"
+          alt="Home Electrical Work"
+        />
+
+        <div class="service-info">
+
+          <h3>
+            Home Electrical Work
+            <span class="arrow">→</span>
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- 8 -->
+
+      <div
+        class="service-card"
+        onclick="showService(
+          'Wiring Services',
+          'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1200&q=85',
+          'Electrical wiring and related service work for residential electrical requirements.'
+        )"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=85"
+          alt="Wiring Services"
+        />
+
+        <div class="service-info">
+
+          <h3>
+            Wiring Services
+            <span class="arrow">→</span>
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- 9 -->
+
+      <div
+        class="service-card"
+        onclick="showService(
+          'Electrical Maintenance',
+          'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=85',
+          'Electrical maintenance and service work for electrical requirements.'
+        )"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=85"
+          alt="Electrical Maintenance"
+        />
+
+        <div class="service-info">
+
+          <h3>
+            Electrical Maintenance
+            <span class="arrow">→</span>
+          </h3>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= SERVICE DETAILS ================= -->
+
+<section id="serviceDetails">
+
+  <div class="service-detail">
+
+    <button
+      class="back-button"
+      onclick="closeService()"
+    >
+      ← Back to Services
+    </button>
+
+    <div class="detail-card">
+
+      <img
+        id="detailImage"
+        src=""
+        alt="Service"
+      />
+
+      <div class="detail-content">
+
+        <h2 id="detailTitle">
+          Service
+        </h2>
+
+        <p id="detailDescription">
+          Service description
+        </p>
+
+        <div class="hero-buttons">
+
+          <a
+            href="tel:+916302688718"
+            class="btn btn-primary"
+          >
+            📞 Call Now
+          </a>
+
+          <a
+            href="https://wa.me/916302688718"
+            target="_blank"
+            class="btn btn-whatsapp"
+          >
+            💬 WhatsApp
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section id="testimonials" class="testimonials">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <h2>Testimonials</h2>
+
+      <p>
+        Customer feedback
+      </p>
+
+    </div>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial">
+
+        <div class="stars">
+          ★★★★★
+        </div>
+
+        <p>
+          Professional electrical service.
+        </p>
+
+        <strong>
+          Customer
+        </strong>
+
+      </div>
+
+
+      <div class="testimonial">
+
+        <div class="stars">
+          ★★★★★
+        </div>
+
+        <p>
+          Good service and quick response.
+        </p>
+
+        <strong>
+          Customer
+        </strong>
+
+      </div>
+
+
+      <div class="testimonial">
+
+        <div class="stars">
+          ★★★★★
+        </div>
+
+        <p>
+          Satisfied with the electrical work.
+        </p>
+
+        <strong>
+          Customer
+        </strong>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <h2>Contact Us</h2>
+
+      <p>
+        Get in touch with Emergency Electricals
+      </p>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+
+      <div class="contact-card">
+
+        <div class="contact-icon">
+          📞
+        </div>
+
+        <h3>
+          Call Us
+        </h3>
+
+        <a href="tel:+916302688718">
+          +91 6302688718
+        </a>
+
+      </div>
+
+
+      <div class="contact-card">
+
+        <div class="contact-icon">
+          💬
+        </div>
+
+        <h3>
+          WhatsApp
+        </h3>
+
+        <a
+          href="https://wa.me/916302688718"
+          target="_blank"
+        >
+          Chat on WhatsApp
+        </a>
+
+      </div>
+
+
+      <div class="contact-card">
+
+        <div class="contact-icon">
+          📧
+        </div>
+
+        <h3>
+          Email
+        </h3>
+
+        <a
+          href="mailto:emergencyelectricals22@gmail.com"
+        >
+          emergencyelectricals22@gmail.com
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= LOCATION ================= -->
+
+<section class="location-section">
+
+  <div class="container">
+
+    <h2>
+      📍 Our Location
+    </h2>
+
+    <p>
+      Electronic City, Bangalore
+    </p>
+
+    <a
+      href="https://www.google.com/maps/search/?api=1&query=Electronic+City+Bangalore"
+      target="_blank"
+      class="btn btn-call"
+    >
+      Open Google Maps
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+  <p>
+    © 2026 Emergency Electricals. All rights reserved.
+  </p>
+
+</footer>
+
+
+<!-- ================= FLOATING WHATSAPP ================= -->
+
+<a
+  href="https://wa.me/916302688718"
+  target="_blank"
+  class="floating-whatsapp"
+  aria-label="WhatsApp"
+>
+  💬
+</a>
+
+
+<script>
+
+  function showService(title, image, description) {
+
+    document.getElementById("detailTitle").textContent = title;
+
+    document.getElementById("detailImage").src = image;
+
+    document.getElementById("detailDescription").textContent =
+      description;
+
+    document.getElementById("serviceDetails").style.display =
+      "block";
+
+    document.getElementById("services").style.display =
+      "none";
+
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
+
+  function closeService() {
+
+    document.getElementById("serviceDetails").style.display =
+      "none";
+
+    document.getElementById("services").style.display =
+      "block";
+
+    document.getElementById("services").scrollIntoView({
+      behavior: "smooth"
+    });
+  }
+
+</script>
+
+</body>
+</html>
