@@ -1,11 +1,11 @@
-// 27 Comprehensive Electrical Services Dataset (High Quality & Exact Match Field Images)
+// 27 Comprehensive Electrical Services Dataset (100% Unique & Relevant Electrical Service Images)
 const servicesData = [
   {
     id: 1,
     title: "Electrical Issues",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=85",
     snippet: "Comprehensive diagnosis and troubleshooting for unexpected electrical breakdowns, sparking, and short circuits.",
     description: "Our certified technicians conduct rapid diagnostic testing to identify mysterious power drops, burning smells, flickering lights, and intermittent socket failures. We ensure swift and safe repairs to eliminate electrical hazard risks in your property."
   },
@@ -14,7 +14,7 @@ const servicesData = [
     title: "Electrical Power Failure",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?auto=format&fit=crop&w=900&q=85",
     snippet: "24/7 urgent power restoration service for sudden partial or full blackout emergencies.",
     description: "When your home or workspace suffers a sudden complete blackout or phase loss, our emergency response team arrives fast to test lines, replace blown main fuses, repair damaged feeder lines, and restore electrical supply safely."
   },
@@ -23,7 +23,7 @@ const servicesData = [
     title: "Earthing Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=900&q=85",
     snippet: "Heavy-duty copper plate and chemical earthing pit installation for shock protection.",
     description: "Protect your expensive electronics, appliances, and residents against voltage surges and static shocks. We install dedicated copper wire earthing pits, chemical ground electrodes, and earthing strips meeting Indian Electrical Code standards."
   },
@@ -32,7 +32,7 @@ const servicesData = [
     title: "Earthing Fault Finding",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=900&q=85",
     snippet: "Precision testing to detect leakage current, high neutral voltage, and faulty grounding.",
     description: "Experiencing mild electric tingles from water taps or metal appliance bodies? We utilize specialized earth resistance meters to detect neutral leaks, broken earthing conductors, and restore ground protection immediately."
   },
@@ -50,7 +50,7 @@ const servicesData = [
     title: "Geyser Installation and Repair",
     category: "installations",
     categoryName: "Installations & Appliances",
-    image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=900&q=85",
     snippet: "Complete water heater mounting, high-load MCB socket installation, heating coil and thermostat repairs.",
     description: "End-to-end electrical service for instant and storage water geysers. We handle safe 16A power point wiring, waterproof switch installation, thermostat replacement, heating element repair, and anti-leak safety checks."
   },
@@ -59,7 +59,7 @@ const servicesData = [
     title: "AC Wiring Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1631545806606-d242691456a0?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=85",
     snippet: "Heavy-duty 16A/20A power wiring lines and dedicated MCB isolators for air conditioners.",
     description: "Proper high-current copper wiring installation tailored for split and window air conditioners. We run dedicated circuit lines directly from the main distribution panel to prevent circuit overloads."
   },
@@ -68,7 +68,7 @@ const servicesData = [
     title: "All Electrical Wiring Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1544725121-be3bf52e2dc8?auto=format&fit=crop&w=900&q=85",
     snippet: "Complete internal electrical rewiring for new apartments, villas, and renovation projects.",
     description: "Comprehensive conduit piping, wire drawing, circuit distribution, and safety testing for residential and commercial construction. We use flame-retardant copper wires for lifetime durability."
   },
@@ -77,7 +77,7 @@ const servicesData = [
     title: "Switch Box Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=900&q=85",
     snippet: "Installation and upgrade of modular switchboards, touch switches, and socket modules.",
     description: "Replacement of old non-standard switchboards with modern modular switch boxes. Includes wiring for 6A/16A sockets, fan dimmers, USB charging sockets, and smart automation switches."
   },
@@ -86,7 +86,7 @@ const servicesData = [
     title: "Electric Bike Charger Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=900&q=85",
     snippet: "Dedicated weather-resistant charging points for Ather, Ola, TVS, and all 2-wheeler electric bikes.",
     description: "Safe parking slot charging point setups for electric scooters and e-bikes. Includes dedicated outdoor 16A power sockets, waterproof enclosures, and individual circuit protection meters."
   },
@@ -149,7 +149,7 @@ const servicesData = [
     title: "Electrical Panel Board Repairs",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=900&q=85",
     snippet: "Repair of overheating panel boards, loose busbars, faulty isolators, and contactor trips.",
     description: "Specialized repair of main power control panels. We fix loose busbar connections, burnt contactors, faulty rotary changeover switches, and replace failing main isolators."
   },
@@ -167,7 +167,7 @@ const servicesData = [
     title: "Electrical MCB Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1544725121-be3bf52e2dc8?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=85",
     snippet: "Single-pole, 2-pole, and 4-pole MCB, RCCB, and ELCB circuit breaker panel installations.",
     description: "Upgrade your distribution box with genuine high-grade MCB breakers, RCCB (residual current circuit breakers), and ELCBs for instant trip protection during earth leakage or short circuits."
   },
@@ -194,7 +194,7 @@ const servicesData = [
     title: "General Repairs",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=85",
     snippet: "On-demand fixing of loose wiring, doorbells, plug sockets, dimmers, and burnt switches.",
     description: "Fast fix for routine everyday electrical glitches. Includes doorbell repair, plug socket tightening, light switch replacement, extension cord wiring, and minor fixture fixes."
   },
@@ -203,7 +203,7 @@ const servicesData = [
     title: "Electrical Inspections",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=900&q=85",
     snippet: "Comprehensive safety audits, load analysis, and pre-occupancy electrical health reports.",
     description: "Detailed safety inspection of residential properties and office spaces. We check wire insulation integrity, load distribution balance, earthing resistance, and flag fire hazard risks."
   },
@@ -230,7 +230,7 @@ const servicesData = [
     title: "Electrical Manual Changeover Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=900&q=85",
     snippet: "Manual 2-way and 4-way knife/rotary changeover switch installation for generator grid switching.",
     description: "Safe installation of heavy-amp manual changeover switches allowing seamless manual switching between EB electricity grid supply and standby diesel generator / inverter backup."
   },
