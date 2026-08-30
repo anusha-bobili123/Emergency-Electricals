@@ -1,4 +1,4 @@
-// 27 Comprehensive Electrical Services Dataset (100% Unique & Relevant Electrical Service Images)
+// 27 Comprehensive Electrical Services Dataset (100% Unique, Relevant & Professional Electrical Service Images)
 const servicesData = [
   {
     id: 1,
@@ -59,7 +59,7 @@ const servicesData = [
     title: "AC Wiring Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=85",
+    image: "images/ac_wiring.jpg",
     snippet: "Heavy-duty 16A/20A power wiring lines and dedicated MCB isolators for air conditioners.",
     description: "Proper high-current copper wiring installation tailored for split and window air conditioners. We run dedicated circuit lines directly from the main distribution panel to prevent circuit overloads."
   },
@@ -68,7 +68,7 @@ const servicesData = [
     title: "All Electrical Wiring Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1544725121-be3bf52e2dc8?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd4e?auto=format&fit=crop&w=900&q=85",
     snippet: "Complete internal electrical rewiring for new apartments, villas, and renovation projects.",
     description: "Comprehensive conduit piping, wire drawing, circuit distribution, and safety testing for residential and commercial construction. We use flame-retardant copper wires for lifetime durability."
   },
@@ -104,7 +104,7 @@ const servicesData = [
     title: "Fuse Replacement",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=900&q=85",
     snippet: "Quick replacement of blown main fuses and upgrade to modern Miniature Circuit Breakers (MCB).",
     description: "Prompt replacement of burned porcelain Kit-Kat main fuses, glass fuses, and main line links. We also upgrade outdated fuse units to automatic trip MCB breakers for enhanced safety."
   },
@@ -167,7 +167,7 @@ const servicesData = [
     title: "Electrical MCB Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=85",
+    image: "images/mcb_installation.jpg",
     snippet: "Single-pole, 2-pole, and 4-pole MCB, RCCB, and ELCB circuit breaker panel installations.",
     description: "Upgrade your distribution box with genuine high-grade MCB breakers, RCCB (residual current circuit breakers), and ELCBs for instant trip protection during earth leakage or short circuits."
   },
@@ -176,7 +176,7 @@ const servicesData = [
     title: "UPS Installation and Repairs",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=900&q=85",
+    image: "images/ups_installation.jpg",
     snippet: "Inverter and battery bank connection, changeover switch wiring, and backup line repairs.",
     description: "Complete home inverter / UPS installation including battery rack connection, dual line separation for critical circuits, auto-changeover wiring, and inverter fault diagnosis."
   },
@@ -194,7 +194,7 @@ const servicesData = [
     title: "General Repairs",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=85",
     snippet: "On-demand fixing of loose wiring, doorbells, plug sockets, dimmers, and burnt switches.",
     description: "Fast fix for routine everyday electrical glitches. Includes doorbell repair, plug socket tightening, light switch replacement, extension cord wiring, and minor fixture fixes."
   },
@@ -221,7 +221,7 @@ const servicesData = [
     title: "Outdoor Lighting Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=900&q=85",
     snippet: "Weatherproof garden lights, compound wall lamps, and motion-sensor floodlight setups.",
     description: "Heavy-duty waterproof outdoor lighting solutions for gardens, building facades, driveways, and terraces. Includes automatic day/night photo sensors and motion detectors."
   },
