@@ -5,7 +5,7 @@ const servicesData = [
     title: "Electrical Issues",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=85",
+    image: "images/electrical_issues.jpg",
     snippet: "Comprehensive diagnosis and troubleshooting for unexpected electrical breakdowns, sparking, and short circuits.",
     description: "Our certified technicians conduct rapid diagnostic testing to identify mysterious power drops, burning smells, flickering lights, and intermittent socket failures. We ensure swift and safe repairs to eliminate electrical hazard risks in your property."
   },
@@ -14,7 +14,7 @@ const servicesData = [
     title: "Electrical Power Failure",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?auto=format&fit=crop&w=900&q=85",
+    image: "images/power_failure.jpg",
     snippet: "24/7 urgent power restoration service for sudden partial or full blackout emergencies.",
     description: "When your home or workspace suffers a sudden complete blackout or phase loss, our emergency response team arrives fast to test lines, replace blown main fuses, repair damaged feeder lines, and restore electrical supply safely."
   },
@@ -23,7 +23,7 @@ const servicesData = [
     title: "Earthing Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=900&q=85",
+    image: "images/earthing_installation.jpg",
     snippet: "Heavy-duty copper plate and chemical earthing pit installation for shock protection.",
     description: "Protect your expensive electronics, appliances, and residents against voltage surges and static shocks. We install dedicated copper wire earthing pits, chemical ground electrodes, and earthing strips meeting Indian Electrical Code standards."
   },
@@ -194,7 +194,7 @@ const servicesData = [
     title: "General Repairs",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=85",
+    image: "images/electrical_issues.jpg",
     snippet: "On-demand fixing of loose wiring, doorbells, plug sockets, dimmers, and burnt switches.",
     description: "Fast fix for routine everyday electrical glitches. Includes doorbell repair, plug socket tightening, light switch replacement, extension cord wiring, and minor fixture fixes."
   },
