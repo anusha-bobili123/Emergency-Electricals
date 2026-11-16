@@ -50,7 +50,7 @@ const servicesData = [
     title: "Geyser Installation and Repair",
     category: "installations",
     categoryName: "Installations & Appliances",
-    image: "https://images.unsplash.com/photo-1714894691666-e8bb020c781c?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1722604831786-656f0bac1502?auto=format&fit=crop&w=900&q=85",
     snippet: "Complete water heater mounting, high-load MCB socket installation, heating coil and thermostat repairs.",
     description: "End-to-end electrical service for instant and storage water geysers. We handle safe 16A power point wiring, waterproof switch installation, thermostat replacement, heating element repair, and anti-leak safety checks."
   },
@@ -68,7 +68,7 @@ const servicesData = [
     title: "All Electrical Wiring Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1607400201889-565b1ee75f8e?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1601462904263-f2fa0c851cb9?auto=format&fit=crop&w=900&q=85",
     snippet: "Complete internal electrical rewiring for new apartments, villas, and renovation projects.",
     description: "Comprehensive conduit piping, wire drawing, circuit distribution, and safety testing for residential and commercial construction. We use flame-retardant copper wires for lifetime durability."
   },
@@ -131,7 +131,7 @@ const servicesData = [
     title: "Chandelier Installation",
     category: "installations",
     categoryName: "Installations & Appliances",
-    image: "https://images.unsplash.com/photo-1556494403-f90163a73c21?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1556442351-fdbfdd12bef7?auto=format&fit=crop&w=900&q=85",
     snippet: "Luxury crystal chandelier assembly, ceiling anchor reinforcement, and dimmer switch wiring.",
     description: "Expert handling and hanging of heavy ornamental crystal chandeliers, modern LED pendant clusters, and high-ceiling light fixtures with heavy-duty structural anchoring."
   },
@@ -158,7 +158,7 @@ const servicesData = [
     title: "Home Appliances Installation",
     category: "installations",
     categoryName: "Installations & Appliances",
-    image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=900&q=85",
+    image: "https://images.unsplash.com/photo-1597418048367-7dd01e4404ee?auto=format&fit=crop&w=900&q=85",
     snippet: "Electrical wiring and power point hookups for kitchen chimneys, hobs, ovens, and washing machines.",
     description: "Professional power point installation and dedicated circuit line setup for kitchen chimneys, electric induction hobs, microwave ovens, dishwashers, and washing machines."
   },
