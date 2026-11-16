@@ -14,6 +14,52 @@
   <!-- Browser Tab Icon -->
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
 
+  <!-- Link Preview (WhatsApp, Facebook, LinkedIn, X) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Emergency Electricals" />
+  <meta property="og:title" content="Emergency Electricals | 24/7 Electrician in Electronic City, Bangalore" />
+  <meta property="og:description" content="Fast 24/7 electrical repairs, wiring, earthing, EV charger and appliance installation in Electronic City, Bangalore. Call +91 6302688718." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=1200&h=630&q=80" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_IN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Emergency Electricals | 24/7 Electrician in Electronic City, Bangalore" />
+  <meta name="twitter:description" content="Fast 24/7 electrical repairs, wiring, earthing, EV charger and appliance installation in Electronic City, Bangalore." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=1200&h=630&q=80" />
+
+  <!-- Business Details for Google Search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "Emergency Electricals",
+    "description": "24/7 emergency electrical repairs, house wiring, earthing, EV charger, MCB, UPS and appliance installation in Electronic City, Bangalore.",
+    "telephone": "+91-6302688718",
+    "email": "emergencyelectricals22@gmail.com",
+    "image": "https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?auto=format&fit=crop&w=1200&h=630&q=80",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Electronic City, Bengaluru",
+      "addressRegion": "Karnataka",
+      "addressCountry": "IN"
+    },
+    "areaServed": [
+      "Electronic City Phase 1",
+      "Electronic City Phase 2",
+      "Neeladri Nagar",
+      "Bengaluru"
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  }
+  </script>
+
   <!-- Modern Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -205,11 +251,11 @@
 
     <!-- Category Filter Tabs -->
     <div class="filter-tabs">
-      <button class="tab-btn active" onclick="filterServices('all', event)">All Services (27)</button>
-      <button class="tab-btn" onclick="filterServices('emergency', event)">Emergency & Repairs</button>
-      <button class="tab-btn" onclick="filterServices('installations', event)">Installations & Appliances</button>
-      <button class="tab-btn" onclick="filterServices('power', event)">EV Chargers & Power</button>
-      <button class="tab-btn" onclick="filterServices('wiring', event)">Wiring & Lighting</button>
+      <button class="tab-btn active" data-category="all" data-label="All Services" onclick="filterServices('all', event)">All Services (27)</button>
+      <button class="tab-btn" data-category="emergency" data-label="Emergency &amp; Repairs" onclick="filterServices('emergency', event)">Emergency &amp; Repairs</button>
+      <button class="tab-btn" data-category="installations" data-label="Installations &amp; Appliances" onclick="filterServices('installations', event)">Installations &amp; Appliances</button>
+      <button class="tab-btn" data-category="power" data-label="EV Chargers &amp; Power" onclick="filterServices('power', event)">EV Chargers &amp; Power</button>
+      <button class="tab-btn" data-category="wiring" data-label="Wiring &amp; Lighting" onclick="filterServices('wiring', event)">Wiring &amp; Lighting</button>
     </div>
 
     <!-- Service Grid -->
@@ -257,7 +303,7 @@
   <div class="container">
     <div class="section-heading">
       <h2>What Our Customers Say</h2>
-      <p>Verified reviews from residential and commercial clients in Bangalore.</p>
+      <p>Feedback from residential and commercial clients in Bangalore.</p>
     </div>
 
     <div class="testimonial-grid">
@@ -302,6 +348,13 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Replace this link with your Google Business Profile review link -->
+    <div style="text-align:center; margin-top:32px;">
+      <a href="https://www.google.com/maps/search/?api=1&query=Emergency+Electricals+Electronic+City+Bangalore" target="_blank" rel="noopener" class="btn btn-primary">
+        <svg class="icon"><use href="#icon-location"/></svg> See Our Reviews on Google
+      </a>
     </div>
   </div>
 </section>
@@ -355,6 +408,11 @@
 
 <!-- ================= FOOTER ================= -->
 <footer>
+  <div class="footer-contact">
+    <a href="tel:+916302688718">📞 +91 6302688718</a>
+    <a href="mailto:emergencyelectricals22@gmail.com">✉️ emergencyelectricals22@gmail.com</a>
+    <span>⚡ Open 24/7</span>
+  </div>
   <p>© 2026 Emergency Electricals. All rights reserved. | Electronic City, Bangalore</p>
 </footer>
 

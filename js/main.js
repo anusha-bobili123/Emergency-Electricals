@@ -3,7 +3,7 @@
 // Fallback Image Handler to prevent any broken images
 function handleImageError(img) {
   img.onerror = null;
-  img.src = "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=85";
+  img.src = "images/fallback.jpg";
 }
 
 // Render Service Cards into Grid
@@ -20,7 +20,16 @@ function renderServices(filter = 'all') {
   filtered.forEach(service => {
     const card = document.createElement("div");
     card.className = "service-card";
+    card.tabIndex = 0;
+    card.setAttribute("role", "button");
+    card.setAttribute("aria-label", `${service.title} - view details`);
     card.onclick = () => openServiceSlidePanel(service.id);
+    card.onkeydown = (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openServiceSlidePanel(service.id);
+      }
+    };
 
     card.innerHTML = `
       <div class="card-img-wrapper">
@@ -108,6 +117,18 @@ document.addEventListener("keydown", (e) => {
 });
 
 // Initialize application on DOM load
+// Show the number of services on each filter tab, e.g. "Emergency & Repairs (8)"
+function updateTabCounts() {
+  document.querySelectorAll(".tab-btn[data-category]").forEach(btn => {
+    const category = btn.dataset.category;
+    const count = category === "all"
+      ? servicesData.length
+      : servicesData.filter(s => s.category === category).length;
+    btn.textContent = `${btn.dataset.label} (${count})`;
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  updateTabCounts();
   renderServices('all');
 });

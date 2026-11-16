@@ -32,7 +32,7 @@ const servicesData = [
     title: "Earthing Fault Finding",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1553873002-785d775854c9?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/earthing_fault_finding.jpg",
     snippet: "Precision testing to detect leakage current, high neutral voltage, and faulty grounding.",
     description: "Experiencing mild electric tingles from water taps or metal appliance bodies? We utilize specialized earth resistance meters to detect neutral leaks, broken earthing conductors, and restore ground protection immediately."
   },
@@ -41,7 +41,7 @@ const servicesData = [
     title: "TV Installation",
     category: "installations",
     categoryName: "Installations & Appliances",
-    image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/tv_installation.jpg",
     snippet: "Professional LED/OLED TV wall mounting, cable trunking, and dedicated power point wiring.",
     description: "Precision wall mounting for flat-screen televisions of all sizes. Includes heavy-duty wall bracket fixings, concealed cable management, setup of set-top box sockets, and soundbar power connections."
   },
@@ -50,7 +50,7 @@ const servicesData = [
     title: "Geyser Installation and Repair",
     category: "installations",
     categoryName: "Installations & Appliances",
-    image: "https://images.unsplash.com/photo-1722604831786-656f0bac1502?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/geyser_installation_and_repair.jpg",
     snippet: "Complete water heater mounting, high-load MCB socket installation, heating coil and thermostat repairs.",
     description: "End-to-end electrical service for instant and storage water geysers. We handle safe 16A power point wiring, waterproof switch installation, thermostat replacement, heating element repair, and anti-leak safety checks."
   },
@@ -68,7 +68,7 @@ const servicesData = [
     title: "All Electrical Wiring Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1601462904263-f2fa0c851cb9?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/all_electrical_wiring_installation.jpg",
     snippet: "Complete internal electrical rewiring for new apartments, villas, and renovation projects.",
     description: "Comprehensive conduit piping, wire drawing, circuit distribution, and safety testing for residential and commercial construction. We use flame-retardant copper wires for lifetime durability."
   },
@@ -77,7 +77,7 @@ const servicesData = [
     title: "Switch Box Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1751486289947-4f5f5961b3aa?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/switch_box_installation.jpg",
     snippet: "Installation and upgrade of modular switchboards, touch switches, and socket modules.",
     description: "Replacement of old non-standard switchboards with modern modular switch boxes. Includes wiring for 6A/16A sockets, fan dimmers, USB charging sockets, and smart automation switches."
   },
@@ -86,7 +86,7 @@ const servicesData = [
     title: "Electric Bike Charger Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1623079398404-4a024f3f4aee?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/electric_bike_charger_installation.jpg",
     snippet: "Dedicated weather-resistant charging points for Ather, Ola, TVS, and all 2-wheeler electric bikes.",
     description: "Safe parking slot charging point setups for electric scooters and e-bikes. Includes dedicated outdoor 16A power sockets, waterproof enclosures, and individual circuit protection meters."
   },
@@ -95,7 +95,7 @@ const servicesData = [
     title: "Electric Car Charger Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/electric_car_charger_installation.jpg",
     snippet: "Heavy-duty 7.2kW / 11kW AC EV Wallbox installation for electric cars with dedicated earthing.",
     description: "Certified EV charger installation for Tata, Mahindra, MG, Hyundai, and luxury electric vehicles. Includes load assessment, high-capacity armored cables, dedicated RCCB/MCB breaker setup, and independent grounding."
   },
@@ -104,7 +104,7 @@ const servicesData = [
     title: "Fuse Replacement",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/fuse_replacement.jpg",
     snippet: "Quick replacement of blown main fuses and upgrade to modern Miniature Circuit Breakers (MCB).",
     description: "Prompt replacement of burned porcelain Kit-Kat main fuses, glass fuses, and main line links. We also upgrade outdated fuse units to automatic trip MCB breakers for enhanced safety."
   },
@@ -113,7 +113,7 @@ const servicesData = [
     title: "Panel Board Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/panel_board_installation.jpg",
     snippet: "Main electrical distribution panel assembly, 3-phase busbar wiring, and sub-meter setups.",
     description: "Custom installation of main electrical distribution panels for multi-story residential buildings, apartments, and commercial facilities. Features busbar alignment, phase distribution, and surge protection."
   },
@@ -122,7 +122,7 @@ const servicesData = [
     title: "Fan Installation",
     category: "installations",
     categoryName: "Installations & Appliances",
-    image: "https://images.unsplash.com/photo-1609519479841-5fd3b2884e17?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/fan_installation.jpg",
     snippet: "Assembly and ceiling mounting of standard fans, BLDC energy-saving fans, and wall exhausts.",
     description: "Safe assembly, downrod installation, ceiling hook testing, and regulator connection for ceiling fans, decorative blade fans, BLDC remote-controlled fans, and kitchen/bathroom exhaust fans."
   },
@@ -131,7 +131,7 @@ const servicesData = [
     title: "Chandelier Installation",
     category: "installations",
     categoryName: "Installations & Appliances",
-    image: "https://images.unsplash.com/photo-1556442351-fdbfdd12bef7?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/chandelier_installation.jpg",
     snippet: "Luxury crystal chandelier assembly, ceiling anchor reinforcement, and dimmer switch wiring.",
     description: "Expert handling and hanging of heavy ornamental crystal chandeliers, modern LED pendant clusters, and high-ceiling light fixtures with heavy-duty structural anchoring."
   },
@@ -140,7 +140,7 @@ const servicesData = [
     title: "Electrical Interiors",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/electrical_interiors.jpg",
     snippet: "False ceiling electrical design, cove lighting setup, and architectural interior lighting execution.",
     description: "Transform your home interior with customized ambient lighting schemes. We handle gypsum false ceiling cutouts, LED driver wiring, magnetic track lights, and ambient architectural lighting."
   },
@@ -149,7 +149,7 @@ const servicesData = [
     title: "Electrical Panel Board Repairs",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1660330589693-99889d60181e?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/electrical_panel_board_repairs.jpg",
     snippet: "Repair of overheating panel boards, loose busbars, faulty isolators, and contactor trips.",
     description: "Specialized repair of main power control panels. We fix loose busbar connections, burnt contactors, faulty rotary changeover switches, and replace failing main isolators."
   },
@@ -158,7 +158,7 @@ const servicesData = [
     title: "Home Appliances Installation",
     category: "installations",
     categoryName: "Installations & Appliances",
-    image: "https://images.unsplash.com/photo-1597418048367-7dd01e4404ee?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/home_appliances_installation.jpg",
     snippet: "Electrical wiring and power point hookups for kitchen chimneys, hobs, ovens, and washing machines.",
     description: "Professional power point installation and dedicated circuit line setup for kitchen chimneys, electric induction hobs, microwave ovens, dishwashers, and washing machines."
   },
@@ -185,7 +185,7 @@ const servicesData = [
     title: "Grounding Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1751433848929-cd41e2d8db80?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/grounding_installation.jpg",
     snippet: "Industrial and residential grounding wire installation for zero earth potential safety.",
     description: "Low-resistance grounding systems engineered for sensitive medical equipment, computer servers, home theaters, and heavy machinery to prevent electrical interference and shock hazards."
   },
@@ -194,7 +194,7 @@ const servicesData = [
     title: "General Repairs",
     category: "emergency",
     categoryName: "Emergency & Repairs",
-    image: "https://images.unsplash.com/photo-1687819280272-95f9d2a3cdab?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/general_repairs.jpg",
     snippet: "On-demand fixing of loose wiring, doorbells, plug sockets, dimmers, and burnt switches.",
     description: "Fast fix for routine everyday electrical glitches. Includes doorbell repair, plug socket tightening, light switch replacement, extension cord wiring, and minor fixture fixes."
   },
@@ -203,7 +203,7 @@ const servicesData = [
     title: "Electrical Inspections",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1758101755915-462eddc23f57?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/electrical_inspections.jpg",
     snippet: "Comprehensive safety audits, load analysis, and pre-occupancy electrical health reports.",
     description: "Detailed safety inspection of residential properties and office spaces. We check wire insulation integrity, load distribution balance, earthing resistance, and flag fire hazard risks."
   },
@@ -212,7 +212,7 @@ const servicesData = [
     title: "Electrical Fixture Installation",
     category: "installations",
     categoryName: "Installations & Appliances",
-    image: "https://images.unsplash.com/photo-1591995788400-9af047d65f1f?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/electrical_fixture_installation.jpg",
     snippet: "Mounting of decorative wall sconces, mirror lights, track lights, and architectural fixtures.",
     description: "Precise installation of wall lamps, vanity mirror lights, spotlight tracks, hanging globe lights, and decorative indoor lighting fixtures with neat wiring connection."
   },
@@ -221,7 +221,7 @@ const servicesData = [
     title: "Outdoor Lighting Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1785162413090-475d4368ebe9?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/outdoor_lighting_installation.jpg",
     snippet: "Weatherproof garden lights, compound wall lamps, and motion-sensor floodlight setups.",
     description: "Heavy-duty waterproof outdoor lighting solutions for gardens, building facades, driveways, and terraces. Includes automatic day/night photo sensors and motion detectors."
   },
@@ -230,7 +230,7 @@ const servicesData = [
     title: "Electrical Manual Changeover Installation",
     category: "power",
     categoryName: "EV Chargers & Power",
-    image: "https://images.unsplash.com/photo-1780445392484-38a4852a1fd8?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/electrical_manual_changeover_installation.jpg",
     snippet: "Manual 2-way and 4-way knife/rotary changeover switch installation for generator grid switching.",
     description: "Safe installation of heavy-amp manual changeover switches allowing seamless manual switching between EB electricity grid supply and standby diesel generator / inverter backup."
   },
@@ -239,7 +239,7 @@ const servicesData = [
     title: "Electrical Profile Light Installation",
     category: "wiring",
     categoryName: "Wiring & Lighting",
-    image: "https://images.unsplash.com/photo-1618403323851-ac3d38029495?auto=format&fit=crop&w=900&q=85",
+    image: "images/services/electrical_profile_light_installation.jpg",
     snippet: "Custom aluminum profile channel LED strip light installation for wardrobes, ceilings, and walls.",
     description: "Modern recessed and surface-mounted aluminum profile light installations with frosted diffusers. Ideal for wardrobe interiors, modular kitchen cabinets, ceiling channels, and accent wall grooves."
   }
